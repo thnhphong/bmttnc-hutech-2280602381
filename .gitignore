@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# PyQt5 platform plugins (large binary files)
+platforms/**/*.dylib
+platforms/**/*.so
+platforms/**/*.dll
+
+# Keys and certificates (security)
+**/keys/
+*.pem
+*.key
+*.crt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Logs
+*.log
+
